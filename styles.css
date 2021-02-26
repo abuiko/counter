@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    position: relative;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    padding: 2rem 0rem;
+}
+
+#value {
+    font-size: 4em;
+}
+
+.buttons {
+    margin-top: 2rem;
+}
+
+.btn {
+    border: 1px solid #000;
+    padding: 0.6rem 3rem;
+    border-radius: 10px;
+    font-size: 1.2em;
+    background: #fff;
+    cursor: pointer;
+
+}
+
+.btn:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.btn:hover {
+    background: rgb(43, 43, 43);
+    color: white;
+}
